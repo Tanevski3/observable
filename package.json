@@ -1,0 +1,22 @@
+{
+  "name": "@mtanevski/observable",
+  "version": "0.0.3",
+  "private": false,
+  "description": "Observable Pattern Implementation",
+  "main": "dist/observable.js",
+  "scripts": {
+    "build": "parcel build src/observable.js",
+    "serve": "parcel example/index.html"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "author": "Marjan Tanevski",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-syntax-async-generators": "^7.7.4",
+    "parcel-bundler": "^1.12.4"
+  }
+}
